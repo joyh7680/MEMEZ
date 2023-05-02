@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goods</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <script src="../assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/style.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="group-left">
+                <div class="logo-area">
+                    <h1 class="logo">
+                        <a href="../index.html">
+                            <img src="../assets/images/logo/memez.png" alt="미미즈">
+                        </a>
+                    </h1>
+                </div>
+                <div class="lang-area">
+                    <button type="button" class="lang-select">
+                        kor<i class="arrow-lang"></i>
+                    </button>
+                    <div class="lang-list">
+                        <a href="" class="lang-kr" role="button"><img src="../assets/images/common/kr.png" alt="한국어"></a>
+                        <a href="" class="lang-us" role="button"><img src="../assets/images/common/us.png" alt="영어"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-right">
+                <a href="" class="btn-search">
+                    <span class="blind">검색</span>
+                </a>
+                <a href="./cart.html" class="btn-cart">
+                    <span class="blind">장바구니</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </header>
+        <main class="container sub-container goods">
+            <div class="group-tit">
+                <div class="arrow-area">
+                    <a href="../index.html" class="arrow-left">
+                        <img src="../assets/images/icon/arrow-left.png" alt="뒤로 가기">
+                    </a>
+                </div>
+                <div class="tit-area">
+                    <h3 class="tit">PRODUCT</h3>
+                </div>
+            </div>
+            <div class="group-sub-menu">
+                <ul class="category-list">
+                    <li class="category-item"><a href="" class="on">ALL</a></li>
+                    <li class="category-item"><a href="">CREATOR</a></li>
+                    <li class="category-item"><a href="">BRAND</a></li>
+                    <li class="category-item"><a href="">PRODUCT</a></li>
+                </ul>
+            </div>
+            <section class="sc-products" id="goods">
+                <div class="group-top">
+                    <div class="sort-area">
+                        <select name="goods-sort" id="">
+                            <option value="">상품정렬</option>
+                            <option value="date">등록일순</option>
+                            <option value="price-row">낮은가격순</option>
+                            <option value="price-high">높은가격순</option>
+                        </select>
+                    </div>
+                    <ul class="view-list">
+                        <li class="view-item">
+                            <span class="blind">뷰타입-리스트</span>
+                            <button type="button" data-type="list" class="btn-type type-list on"></button>
+                        </li>
+                        <li class="view-item">
+                            <span class="blind">뷰타입-갤러리</span>
+                            <button type="button" data-type="gallery" class="btn-type type-gallery"></button>
+                        </li>
+                        <li class="view-item">
+                            <span class="blind">뷰타입-타일</span>
+                            <button type="button" data-type="tile" class="btn-type type-tile"></button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- list type  -->
+                <ul class="products-list list">
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item01.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 리프레시 시그니처 세트(치약 1개+가글 280ml) 쏘두위 리프레시 시그니처 세트(치약 1개+가글 280ml)</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item02.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 비건 오일풀링 비기너 세트(오일풀링 치약+가글 280ml+대나무 칫솔)</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item03.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 비건 오일풀링 시그니처 세트(오일풀링 치약+가글 280ml)</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item04.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 비건 오일풀링 마우스워시 500ml x 2개</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item05.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 비건 오일풀링 마우스워시 280ml x 2개</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item06.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 리프레시 바질레몬 치약 100g x 2개</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item07.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">쏘두위 비건 오일풀링 치약 100g x 2개</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item08.png" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name"> 하트 오브 크라운 기본판 풀확장 (기본판+극동+북쪽) - 한곰게임즈 보드게임</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item09.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">[울산큰고래x유쇼라] 간식대장 홀리데이 에디션</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products-item">
+                        <div class="img-wrap">
+                            <a href="" class="bg">
+                                <img src="../assets/images/style/product-item10.jpg" alt>
+                            </a>
+                        </div>
+                        <div class="info-wrap">
+                            <a href="" class="info-box">
+                                <p class="name">[울산큰고래x유쇼라] 간식대장 mini</p>
+                                <span class="origin">19,800</span>
+                                <div class="price">
+                                    <strong class="per">15%</strong>
+                                    <em class="sale">￦16,800</em>
+                                </div>
+                            </a>
+                            <div class="wish-box">
+                                <span class="blind">찜하기</span>
+                                <button type="button" class="btn-wish"></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="btn-wrap">
+                    <button class="btn-more">MORE</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <h2 class="blind">미미즈 푸터</h2>
+            <section class="sc-notice">
+                <div class="group-notice">
+                    <h3 class="tit">notice</h3>
+                    <div class="swiper noticeSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">[MEMEZ] 설 연휴 배송 안내</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">[MEMEZ] &lt;하하하 - 냥테미즘 행운카드 세트&gt; 불량 제품 '보상' 신청 안내</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">[MEMEZ] 라디유 '디유는 못말려' 인형 배송 박스 파손...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-top">
+                <div class="group-cs">
+                    <h3 class="tit">customer center</h3>
+                    <em>1533-0652</em>
+                    <p class="info-area">
+                        AM 10:00 ~ PM 05:00 <br>
+                        Off-time PM 01:00 ~ PM 02:00<br>
+                        SATURDAY. SUNDAY, HOLIDAY OFF<br>
+                        cs@memez.kr
+                    </p>
+                    <div class="qna-area">
+                        <a href="" class="btn-q">Q&A</a>
+                        <a href="" class="btn-q">FAQ</a>
+                    </div>
+                </div>
+                <div class="group-refund">
+                    <h3 class="tit">반품 배송지</h3>
+                    <p class="address-area">
+                        경기도 광주시 도척면 도척로 376-68 <br>
+                        엠케이물류 MEMEZ
+                    </p>
+                </div>
+                <div class="group-info">
+                    <h3 class="tit">company info</h3>
+                    <div class="desc-area">
+                        <p class="info-box">
+                            (주)샌드박스네트워크 대표 : 이필성 <br>
+                            서울특별시 용산구 서빙고로 17 센트럴파크타워 30층 <br>
+                            사업자등록번호 : 220-88-89136 <br>
+                            통신판매업신고 : 2021-서울용산-0232 <br>
+                            개인정보책임관리자 : 이필성 memez@memez.kr
+                            <br>
+                            <br>
+                        </p>
+                        <p class="copyright-box">
+                            COPYRIGHTSⓒMEMEZ. ALL RIGHTS RESERVED. <br>
+                            입점 판매자가 등록한 상품, 거래정보 및 거래에 대하여 <br>
+                            (주) 샌드박스 네트워크는 일체의 책임을 지지 않습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="group-sns">
+                    <ul class="sns-list">
+                        <li class="sns-item">   
+                            <a href="" class="sns-insta"><img src="../assets/images/logo/foot-insta.png" alt="인스타그램"></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="" class="sns-twit"><img src="../assets/images/logo/foot-twit.png" alt="트위터"></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="" class="sns-youtube"><img src="../assets/images/logo/foot-youtube.png" alt="유튜브"></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="" class="sns-kakao"><img src="../assets/images/logo/foot-kakao.png" alt="카카오톡"></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-btm">
+                <div class="group-link">
+                    <ul class="link-list">
+                        <li class="link-item"><a href="">회사소개</a></li>
+                        <li class="link-item"><a href="">이용약관</a></li>
+                        <li class="link-item"><a href="">개인정보처리방침</a></li>
+                        <li class="link-item"><a href="">이용안내</a></li>
+                        <li class="link-item"><a href="">입점신청</a></li>
+                        <li class="link-item"><a href="">제조사 입점신청</a></li>
+                    </ul>
+                </div>
+                <div class="group-site">
+                    <ul class="site-list">
+                        <li class="site-item">
+                            <a href="">sandbox</a>
+                        </li>
+                        <li class="site-item">
+                            <a href="">mtdz</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+        <!-- 팝업 검색창  -->
+        <section class="sc-search">
+            <div class="group-search">
+                <form action="" method="get" id="searchForm">
+                    <fieldset>
+                        <legend class="blind">검색</legend>
+                        <div class="wrap">
+                            <input type="text" class="input-text" placeholder="침착맨의 침착 장패드">
+                            <button type="submit" class="btn-submit">
+                                <span class="blind">검색</span>
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+                <button class="btn-close">닫기</button>
+            </div>
+            <div class="group-keyword">
+                <div class="recent-area">
+                    <h3 class="tit">최근 검색어</h3>
+                    <p>최근 검색어가 없습니다.</p>
+                </div>
+                <div class="hot-area">
+                    <h3 class="tit">인기 검색어</h3>
+                    <div class="list-wrap">
+                        <ul class="hot-list">
+                            <li class="hot-item"><a href="">솔라시도 </a></li>
+                            <li class="hot-item"><a href="">토끼</a></li>
+                            <li class="hot-item"><a href="">남씨</a></li>
+                            <li class="hot-item"><a href="">나도</a></li>
+                            <li class="hot-item"><a href="">t1</a></li>
+                            <li class="hot-item"><a href="">침착맨</a></li>
+                            <li class="hot-item"><a href="">자연인</a></li>
+                            <li class="hot-item"><a href="">파자마</a></li>
+                            <li class="hot-item"><a href="">하하하</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+    "items":[
+        {
+            "snippets":{
+                "thumbnails":{
+                    "url":"./assets/images/main/review01.jpeg"
+                },
+                "review":{
+                    "number":"5",
+                    "desc":"별 5개 중 5"
+                },
+                "title":"기엽습니다 후후",
+                "desc":"달력시즌 다 끝나서 여기 저기 찾아보다 알게 돼 구매하였습니다. 너무너무 귀여워서 인스타도 팔로우 했습니다. 귀여운게 채고야",
+                "scrap":81,
+                "product":{
+                    "thumbnails":"./assets/images/main/review-goods01.jpeg",
+                    "title":"냥이 달력",
+                    "price":{
+                        "per":"10%",
+                        "sale":"￦16,200",
+                        "origin":"￦18,000"
+                    }
+                }
+            }
+        },
+        {
+            "snippets":{
+                "thumbnails":{
+                    "url":"./assets/images/main/review02.jpeg"
+                },
+                "review":{
+                    "number":"3",
+                    "desc":"별 5개 중 3개"
+                },
+                "title":"기엽습니다 후후",
+                "desc":"달력시즌 다 끝나서 여기 저기 찾아보다 알게 돼 구매하였습니다. 너무너무 귀여워서 인스타도 팔로우 했습니다. 귀여운게 채고야",
+                "scrap":32,
+                "product":{
+                    "thumbnails":"./assets/images/main/review-goods02.png",
+                    "title":"냥이 쿠션",
+                    "price":{
+                        "per":"10%",
+                        "sale":"￦20,000",
+                        "origin":"￦18,000"
+                    }
+                }
+            }
+        },
+        {
+            "snippets":{
+                "thumbnails":{
+                    "url":"./assets/images/main/review03.jpeg"
+                },
+                "review":{
+                    "number":"4",
+                    "desc":"별 5개 중 4개"
+                },
+                "title":"기엽습니다 후후",
+                "desc":"달력시즌 다 끝나서 여기 저기 찾아보다 알게 돼 구매하였습니다. 너무너무 귀여워서 인스타도 팔로우 했습니다. 귀여운게 채고야",
+                "scrap":56,
+                "product":{
+                    "thumbnails":"./assets/images/main/review-goods03.png",
+                    "title":"냥이 컵",
+                    "price":{
+                        "per":"10%",
+                        "sale":"￦13,500",
+                        "origin":"￦15,000"
+                    }
+                }
+            }
+        },
+        {
+            "snippets":{
+                "thumbnails":{
+                    "url":"./assets/images/main/review04.jpeg"
+                },
+                "review":{
+                    "number":"5",
+                    "desc":"별 5개 중 5개"
+                },
+                "title":"기엽습니다 후후",
+                "desc":"달력시즌 다 끝나서 여기 저기 찾아보다 알게 돼 구매하였습니다. 너무너무 귀여워서 인스타도 팔로우 했습니다. 귀여운게 채고야",
+                "scrap":34,
+                "product":{
+                    "thumbnails":"./assets/images/main/review-goods04.jpg",
+                    "title":"유니버스 티",
+                    "price":{
+                        "per":"10%",
+                        "sale":"￦31,500",
+                        "origin":"￦35,000"
+                    }
+                }
+            }
+        },
+        {
+            "snippets":{
+                "thumbnails":{
+                    "url":"./assets/images/main/review05.jpeg"
+                },
+                "review":{
+                    "number":"3",
+                    "desc":"별 5개 중 3개"
+                },
+                "title":"기엽습니다 후후",
+                "desc":"달력시즌 다 끝나서 여기 저기 찾아보다 알게 돼 구매하였습니다. 너무너무 귀여워서 인스타도 팔로우 했습니다. 귀여운게 채고야",
+                "scrap":27,
+                "product":{
+                    "thumbnails":"./assets/images/main/review-goods05.jpg",
+                    "title":"곰돌이 케이스",
+                    "price":{
+                        "per":"10%",
+                        "sale":"￦9,000",
+                        "origin":"￦10,000"
+                    }
+                }
+            }
+        }
+    ]
+}
